@@ -1,6 +1,8 @@
-package com.thoughtworks.catalog_service;
+package com.thoughtworks.catalog;
 
 import org.springframework.boot.SpringApplication;
+
+import com.thoughtworks.catalog.CatalogServiceApplication;
 
 public class TestCatalogServiceApplication {
 

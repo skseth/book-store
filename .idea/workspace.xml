@@ -4,24 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="09687793-943d-4a21-8d61-bf23154b5258" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="919c1ba9-74eb-4669-95aa-f6f52fc4c2c5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/catalog-service/src/test/java/com/thoughtworks/catalog/AbstractIntegrationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog-service/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/catalog-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog-service/src/main/java/com/thoughtworks/catalog_service/CatalogServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/src/main/java/com/thoughtworks/catalog_service/CatalogServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog-service/src/main/java/com/thoughtworks/catalog_service/CatalogServiceApplication.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/catalog-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog-service/src/test/java/com/thoughtworks/catalog_service/CatalogServiceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/src/test/java/com/thoughtworks/catalog_service/CatalogServiceApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog-service/src/test/java/com/thoughtworks/catalog_service/TestCatalogServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/src/test/java/com/thoughtworks/catalog_service/TestCatalogServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog-service/src/test/java/com/thoughtworks/catalog_service/TestcontainersConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/src/test/java/com/thoughtworks/catalog_service/TestcontainersConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ide.sh" beforeDir="false" afterPath="$PROJECT_DIR$/ide.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog-service/src/test/java/com/thoughtworks/catalog_service/CatalogServiceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/src/test/java/com/thoughtworks/catalog/CatalogServiceApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog-service/src/test/java/com/thoughtworks/catalog_service/TestCatalogServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/src/test/java/com/thoughtworks/catalog/TestCatalogServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog-service/src/test/java/com/thoughtworks/catalog_service/TestcontainersConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/src/test/java/com/thoughtworks/catalog/TestcontainersConfiguration.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -37,7 +43,7 @@
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 6
 }</component>
-  <component name="ProjectId" id="2vIYinZYGPcKvmX5Us8u2cYng9x" />
+  <component name="ProjectId" id="2vJv0qDNqLCsnrxgLw2vosuPlm6" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -46,58 +52,130 @@
   "keyToString": {
     "Application.CatalogServiceApplication.executor": "Run",
     "JUnit.CatalogServiceApplicationTests.executor": "Run",
+    "JUnit.ProductControllerTest (1).executor": "Run",
+    "JUnit.ProductControllerTest.executor": "Run",
+    "JUnit.ProductControllerTest.shouldGetProductByCode.executor": "Run",
+    "JUnit.ProductControllerTest.shouldReturnNotFoundWhenProductCodeNotExists.executor": "Run",
+    "JUnit.ProductRepositoryTest.executor": "Run",
+    "JUnit.ProductRepositoryTest.shouldGetProductByCode.executor": "Run",
+    "JUnit.ProductRepositoryTest.shouldReturnEmptyWhenProductCodeDoesNotExist.executor": "Run",
+    "Maven.catalog-service [clean].executor": "Run",
+    "Maven.catalog-service [package].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.CatalogServiceApplication">
-    <configuration name="CatalogServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.thoughtworks.catalog_service.CatalogServiceApplication" />
+  <component name="RunManager" selected="JUnit.ProductControllerTest.shouldReturnNotFoundWhenProductCodeNotExists">
+    <configuration name="ProductControllerTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="catalog-service" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.thoughtworks.catalog_service.*" />
+          <option name="PATTERN" value="com.thoughtworks.catalog.controllers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.thoughtworks.catalog.controllers" />
+      <option name="MAIN_CLASS_NAME" value="com.thoughtworks.catalog.controllers.ProductControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CatalogServiceApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ProductControllerTest.shouldGetProductByCode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="catalog-service" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.thoughtworks.catalog_service.*" />
+          <option name="PATTERN" value="com.thoughtworks.catalog.controllers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.thoughtworks.catalog_service" />
-      <option name="MAIN_CLASS_NAME" value="com.thoughtworks.catalog_service.CatalogServiceApplicationTests" />
+      <option name="PACKAGE_NAME" value="com.thoughtworks.catalog.controllers" />
+      <option name="MAIN_CLASS_NAME" value="com.thoughtworks.catalog.controllers.ProductControllerTest" />
+      <option name="METHOD_NAME" value="shouldGetProductByCode" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductControllerTest.shouldReturnNotFoundWhenProductCodeNotExists" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="catalog-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.thoughtworks.catalog.controllers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.thoughtworks.catalog.controllers" />
+      <option name="MAIN_CLASS_NAME" value="com.thoughtworks.catalog.controllers.ProductControllerTest" />
+      <option name="METHOD_NAME" value="shouldReturnNotFoundWhenProductCodeNotExists" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="catalog-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.thoughtworks.catalog.domain.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.thoughtworks.catalog.domain" />
+      <option name="MAIN_CLASS_NAME" value="com.thoughtworks.catalog.domain.ProductRepositoryTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductRepositoryTest.shouldReturnEmptyWhenProductCodeDoesNotExist" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="catalog-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.thoughtworks.catalog.domain.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.thoughtworks.catalog.domain" />
+      <option name="MAIN_CLASS_NAME" value="com.thoughtworks.catalog.domain.ProductRepositoryTest" />
+      <option name="METHOD_NAME" value="shouldReturnEmptyWhenProductCodeDoesNotExist" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CatalogServiceApplication" />
-        <item itemvalue="JUnit.CatalogServiceApplicationTests" />
+        <item itemvalue="JUnit.ProductControllerTest.shouldReturnNotFoundWhenProductCodeNotExists" />
+        <item itemvalue="JUnit.ProductControllerTest.shouldGetProductByCode" />
+        <item itemvalue="JUnit.ProductControllerTest (1)" />
+        <item itemvalue="JUnit.ProductRepositoryTest" />
+        <item itemvalue="JUnit.ProductRepositoryTest.shouldReturnEmptyWhenProductCodeDoesNotExist" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="09687793-943d-4a21-8d61-bf23154b5258" name="Changes" comment="" />
-      <created>1743834184733</created>
+      <changelist id="919c1ba9-74eb-4669-95aa-f6f52fc4c2c5" name="Changes" comment="" />
+      <created>1743875770831</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1743834184733</updated>
+      <updated>1743875770831</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/catalog-service/src/test/java/com/thoughtworks/catalog/controllers/ProductControllerTest.java</url>
+          <line>68</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

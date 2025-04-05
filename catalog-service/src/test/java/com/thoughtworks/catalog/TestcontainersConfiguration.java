@@ -1,4 +1,4 @@
-package com.thoughtworks.catalog_service;
+package com.thoughtworks.catalog;
 
 import org.springframework.boot.test.context.TestConfiguration;
 import org.springframework.boot.testcontainers.service.connection.ServiceConnection;

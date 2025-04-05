@@ -4,3 +4,5 @@
 - SDKMan integration?
 - Test Containers
 - Mockito as agent issue
+- Lombok
+- strange issue with DataJpaTest needing RunsWith(SpringRunner.class) for junit 5 - see: 
