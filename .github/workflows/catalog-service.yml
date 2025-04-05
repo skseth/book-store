@@ -18,7 +18,7 @@ jobs:
       run:
         working-directory: ${{ env.working-directory }}
     steps:
-      - uses: actions/setup-java@v4
+      - uses: actions/checkout@v4
 
       #
       - name: Setup Java 21
