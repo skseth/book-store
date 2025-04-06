@@ -7,6 +7,7 @@
     <list default="true" id="919c1ba9-74eb-4669-95aa-f6f52fc4c2c5" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.github/workflows/catalog-service.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/catalog-service.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog-service/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
