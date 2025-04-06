@@ -29,3 +29,19 @@ jobs:
         # TW-NOTE: skipping tests as we are having timeout starting postgres via testcontainers
         # Needs to be fixed
         run: ./mvnw --no-transfer-progress verify -DskipTests
+
+      - if: ${{ github.ref == 'refs/head/main' }}
+        name: Login to Docker Hub
+        uses: docker/login-action@v3
+        with:
+          username: ${{ vars.DOCKERHUB_USERNAME }}
+          password: ${{ secrets.DOCKERHUB_TOKEN }}
+
+      - if: ${{ github.ref == 'refs/head/main' }}
+        name: Build and Publish Docker Image
+        uses: docker/login-action@v3
+        run: |
+          ./mvnw spring-boot:build-image -DskipTests
+          docker push ${{ secrets.DOCKER_USERNAME }}/bookstore-catalog-service
+
+

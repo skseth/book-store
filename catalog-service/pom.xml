@@ -28,6 +28,9 @@
 	</scm>
 	<properties>
 		<java.version>21</java.version>
+		<!-- TW-NOTE: Make dockerImagePrefix configurable -->
+		<dockerImagePrefix>samirkseth</dockerImagePrefix>
+		<dockerImageName>${dockerImagePrefix}/bookstore-${project.artifactId}</dockerImageName>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -138,6 +141,11 @@
 						</configuration>
 					</execution>
 				</executions>
+				<configuration>
+					<image>
+						<name>${dockerImageName}</name>
+					</image>
+				</configuration>
 			</plugin>
 			<plugin>
 				<groupId>io.github.git-commit-id</groupId>
