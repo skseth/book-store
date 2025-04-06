@@ -39,7 +39,6 @@ jobs:
 
       - if: ${{ github.ref == 'refs/head/main' }}
         name: Build and Publish Docker Image
-        uses: docker/login-action@v3
         run: |
           ./mvnw spring-boot:build-image -DskipTests
           docker push ${{ secrets.DOCKER_USERNAME }}/bookstore-catalog-service
